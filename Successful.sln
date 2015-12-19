@@ -19,7 +19,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Successful.Planr.Domain", "Successful.Planr.Domain\Successful.Planr.Domain.xproj", "{E1C958DE-E169-4BBB-9185-76E412D53802}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Successful.Planr.Domain", "Successful.Planr\Successful.Planr.Domain\Successful.Planr.Domain.xproj", "{E1C958DE-E169-4BBB-9185-76E412D53802}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{EE6DA34E-8133-4A4D-A673-00F3D5644D13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Planr", "Planr", "{5BF14AE1-087B-4907-8513-51D416D249B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,5 +58,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11B49BEA-7CE6-4F66-876B-8CD2917B0ECB} = {5BF14AE1-087B-4907-8513-51D416D249B1}
+		{CFE1F0DF-4AC9-48B5-9DB8-1469E528A9E9} = {EE6DA34E-8133-4A4D-A673-00F3D5644D13}
+		{CC9A5DFC-CAD4-444C-BB6C-9E640530F315} = {EE6DA34E-8133-4A4D-A673-00F3D5644D13}
+		{81EABDF0-BF59-45FF-A248-D4666C436FD6} = {5BF14AE1-087B-4907-8513-51D416D249B1}
+		{52126272-E332-464C-BB55-3B128BC9D5D6} = {EE6DA34E-8133-4A4D-A673-00F3D5644D13}
+		{E1C958DE-E169-4BBB-9185-76E412D53802} = {5BF14AE1-087B-4907-8513-51D416D249B1}
 	EndGlobalSection
 EndGlobal
