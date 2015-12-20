@@ -15,7 +15,7 @@ plugins.del = require('del');                                // Lets you delete 
 
 // Loads all the tasks.
 var taskLoader = require('gulp-simple-task-loader')({
-    taskDirectory: 'Build/GulpTasks',                        // The directory your tasks are stored in (relative and absolute paths accepted) 
+    taskDirectory: 'Gulp/Tasks',                        // The directory your tasks are stored in (relative and absolute paths accepted) 
     configFile: '../Configs/task-loader-config.js',          // The relative path to your task configuration file from your task directory
     filenameDelimiter: '-',                                  // A character or string of characters to replace in task filenames 
     tasknameDelimiter: ':',                                  // A character or string of characters to insert in place of removed filenameDelimiter 
