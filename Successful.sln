@@ -24,6 +24,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{EE6DA34E-8133-4A4D-A673-00F3D5644D13}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Planr", "Planr", "{5BF14AE1-087B-4907-8513-51D416D249B1}"
+	ProjectSection(SolutionItems) = preProject
+		Successful.Core\Successful.Core.Ioc\project.json = Successful.Core\Successful.Core.Ioc\project.json
+		Successful.Core\Successful.Core.Ioc\project.lock.json = Successful.Core\Successful.Core.Ioc\project.lock.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

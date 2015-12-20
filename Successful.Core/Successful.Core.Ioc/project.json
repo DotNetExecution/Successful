@@ -3,19 +3,22 @@
   "description": "Successful.Core.Ioc",
 
   "frameworks": {
-    "net451": {
+    "dnx451 ": {
+      "dependencies": {
+        "Microsoft.Framework.DependencyInjection.Autofac": "1.0.0-beta7-11636"
+      }
+    },
+    "dnxcore50": {
       "dependencies": {
         "Microsoft.CSharp": "4.0.1-rc2-*",
         "System.Collections": "4.0.11-rc2-*",
         "System.Linq": "4.0.1-rc2-*",
         "System.Runtime": "4.0.21-rc2-*",
-        "System.Threading": "4.0.11-rc2-*",
-        "Microsoft.Framework.DependencyInjection.Autofac": "1.0.0-beta7-11636"
+        "System.Threading": "4.0.11-rc2-*"
       }
     }
   },
-
   "dependencies": {
+    "Successful.Core": "1.0.0-*"
   }
-
 }

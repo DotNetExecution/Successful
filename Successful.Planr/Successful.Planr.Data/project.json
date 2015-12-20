@@ -3,11 +3,11 @@
   "description": "Successful.Planr.Data",
 
   "frameworks": {
-    "net451": {
+    "dnx451 ": {
       "dependencies": {
       }
     },
-    "dotnet5.4": {
+    "dnxcore50": {
       "dependencies": {
         "Microsoft.CSharp": "4.0.1-rc2-*",
         "System.Collections": "4.0.11-rc2-*",
@@ -17,7 +17,6 @@
       }
     }
   },
-
   "dependencies": {
     "Successful.Core.Data": "1.0.0-*"
   }
