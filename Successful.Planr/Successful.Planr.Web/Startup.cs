@@ -1,10 +1,10 @@
 ﻿using System;
 using Autofac;
+using Autofac.Dnx;
 using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Hosting;
 using Microsoft.AspNet.Http;
 using Microsoft.Framework.DependencyInjection;
-using Microsoft.Framework.DependencyInjection.Autofac;
 using Successful.Core.Ioc.Modules;
 
 namespace Successful.Planr.Web

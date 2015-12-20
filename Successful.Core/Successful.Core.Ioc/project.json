@@ -5,7 +5,6 @@
   "frameworks": {
     "dnx451 ": {
       "dependencies": {
-        "Microsoft.Framework.DependencyInjection.Autofac": "1.0.0-beta7-11636"
       }
     },
     "dnxcore50": {
@@ -19,6 +18,35 @@
     }
   },
   "dependencies": {
-    "Successful.Core": "1.0.0-*"
+    "Successful.Core": "1.0.0-*",
+    "Autofac.Dnx": "4.0.0-alpha2"
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
