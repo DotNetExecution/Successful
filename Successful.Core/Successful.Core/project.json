@@ -1,6 +1,7 @@
 ﻿{
   "version": "1.0.0-*",
   "description": "Successful.Core",
+  "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0",
 
   "frameworks": {
     "dnx451 ": {

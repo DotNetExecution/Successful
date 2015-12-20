@@ -1,5 +1,6 @@
 ﻿{
   "version": "1.0.0-*",
+  "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0",
   "compilationOptions": {
     "emitEntryPoint": true
   },
@@ -19,14 +20,14 @@
       "dependencies": {
       }
     }
-    },
+  },
 
-    "exclude": [
-      "wwwroot",
-      "node_modules"
-    ],
-    "publishExclude": [
-      "**.user",
-      "**.vspscc"
-    ]
-  }
+  "exclude": [
+    "wwwroot",
+    "node_modules"
+  ],
+  "publishExclude": [
+    "**.user",
+    "**.vspscc"
+  ]
+}
