@@ -1,10 +1,10 @@
 ﻿using System;
 using Autofac;
-using Autofac.Dnx;
+using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Hosting;
 using Microsoft.AspNet.Http;
-using Microsoft.Framework.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
 using Successful.Core.Ioc.Modules;
 
 namespace Successful.Planr.Web
@@ -32,7 +32,14 @@ namespace Successful.Planr.Web
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app)
         {
-            app.UseIISPlatformHandler();
+            app.UseStaticFiles();
+
+            //app.UseMvc(routes =>
+            //{
+            //    routes.MapRoute(
+            //        name: "default",
+            //        template: "{controller=Home}/{action=Index}/{id?}");
+            //});
 
             app.Run(async (context) =>
             {
@@ -40,6 +47,7 @@ namespace Successful.Planr.Web
             });
         }
 
+        // Entry point for the application.
         // Entry point for the application.
         public static void Main(string[] args) => WebApplication.Run<Startup>(args);
     }

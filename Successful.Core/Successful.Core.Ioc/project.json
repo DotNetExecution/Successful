@@ -4,11 +4,11 @@
   "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0",
 
   "frameworks": {
-    "dnx451 ": {
+    "dnx46 ": {
       "dependencies": {
       }
     },
-    "dnxcore50": {
+    "dnxcore5": {
       "dependencies": {
         "Microsoft.CSharp": "4.0.1-rc2-*",
         "System.Collections": "4.0.11-rc2-*",
@@ -19,13 +19,10 @@
     }
   },
   "dependencies": {
-    "Successful.Core": "1.0.0-*",
-    "Autofac.Dnx": "4.0.0-alpha2"
+    "Autofac": "4.0.0-rc2-182",
+    "Successful.Core": "1.0.0-*"
   }
 }
-
-
-
 
 
 

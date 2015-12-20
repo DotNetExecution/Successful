@@ -2,12 +2,18 @@
   "version": "1.0.0-*",
   "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0",
   "compilationOptions": {
-    "emitEntryPoint": true
+    "emitEntryPoint": true,
+    "warningsAsErrors": true
   },
 
   "dependencies": {
-    "Microsoft.AspNet.IISPlatformHandler": "1.0.0-rc2-*",
-    "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc2-*",
+    "Autofac": "4.0.0-rc2-182",
+    "Autofac.Extensions.DependencyInjection": "4.0.0-rc2-182",
+    "Microsoft.Extensions.DependencyInjection": "1.0.0-rc2-15888",
+    "Microsoft.AspNet.IISPlatformHandler": "1.0.0-*",
+    "Microsoft.AspNet.Mvc": "6.0.0-*",
+    "Microsoft.AspNet.Server.Kestrel": "1.0.0-*",
+    "Microsoft.AspNet.StaticFiles": "1.0.0-*",
     "Successful.Core.Ioc": "1.0.0-*"
   },
 
@@ -16,8 +22,13 @@
   },
 
   "frameworks": {
-    "dnx451": {
+    "dnx46": {
       "dependencies": {
+      }
+    },
+    "dnxcore5": {
+      "dependencies": {
+
       }
     }
   },

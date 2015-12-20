@@ -4,7 +4,7 @@
   "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0",
 
   "frameworks": {
-    "dnx451 ": {
+    "dnx46 ": {
       "dependencies": {
       }
     },
