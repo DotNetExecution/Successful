@@ -5,11 +5,8 @@
   },
 
   "dependencies": {
-    "Microsoft.AspNet.IISPlatformHandler": "1.0.0-rc2-16020",
-    "Microsoft.AspNet.Mvc": "6.0.0-rc2-16683",
-    "Microsoft.AspNet.Mvc.Core": "6.0.0-rc2-16683",
-    "Microsoft.AspNet.Mvc.Extensions": "6.0.0-beta6-14251",
-    "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc2-16185",
+    "Microsoft.AspNet.IISPlatformHandler": "1.0.0-rc2-*",
+    "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc2-*",
     "Successful.Core.Ioc": "1.0.0-*"
   },
 
@@ -18,15 +15,18 @@
   },
 
   "frameworks": {
-    "dnx451": { }
-  },
+    "dnx451": {
+      "dependencies": {
+      }
+    }
+    },
 
-  "exclude": [
-    "wwwroot",
-    "node_modules"
-  ],
-  "publishExclude": [
-    "**.user",
-    "**.vspscc"
-  ]
-}
+    "exclude": [
+      "wwwroot",
+      "node_modules"
+    ],
+    "publishExclude": [
+      "**.user",
+      "**.vspscc"
+    ]
+  }

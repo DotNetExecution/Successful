@@ -1,19 +1,25 @@
 {
   "version": "1.0.0-*",
   "description": "Successful.Core.Data",
+
   "frameworks": {
     "net451": {
       "dependencies": {
-        "Microsoft.CSharp": "4.0.1-beta-23516",
-        "System.Collections": "4.0.11-beta-23516",
-        "System.Linq": "4.0.1-beta-23516",
-        "System.Runtime": "4.0.21-beta-23516",
-        "System.Threading": "4.0.11-beta-23516"
+      }
+    },
+    "dotnet5.4": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.1-rc2-*",
+        "System.Collections": "4.0.11-rc2-*",
+        "System.Linq": "4.0.1-rc2-*",
+        "System.Runtime": "4.0.21-rc2-*",
+        "System.Threading": "4.0.11-rc2-*"
       }
     }
   },
+
   "dependencies": {
-    "Successful.Core": "1.0.0-*",
-    "StructureMap.Dnx": "0.4.0-alpha4"
+    "Successful.Core": "1.0.0-*"
   }
+
 }
