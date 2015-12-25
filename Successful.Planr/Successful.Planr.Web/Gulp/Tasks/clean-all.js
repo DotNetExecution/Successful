@@ -6,9 +6,9 @@ module.exports = function (gulp, config, plugins) {
         params: [],                                 
         fn: function () {
             plugins.del([
+                '!wwwroot/web.config',
                 // This will delete all files in folder!
-                config.paths.destinations.wwwroot,
-                '!wwwroot/web.config'
+                config.paths.destinations.wwwroot 
             ]);
         }
     };

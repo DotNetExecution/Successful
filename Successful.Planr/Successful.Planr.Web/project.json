@@ -9,11 +9,9 @@
   "dependencies": {
     "Autofac": "4.0.0-rc2-182",
     "Autofac.Extensions.DependencyInjection": "4.0.0-rc2-182",
-    "Microsoft.Extensions.DependencyInjection": "1.0.0-rc2-15888",
-    "Microsoft.AspNet.IISPlatformHandler": "1.0.0-*",
-    "Microsoft.AspNet.Mvc": "6.0.0-*",
-    "Microsoft.AspNet.Server.Kestrel": "1.0.0-*",
-    "Microsoft.AspNet.StaticFiles": "1.0.0-*",
+    "Microsoft.AspNet.Hosting": "1.0.0-rc2-16150",
+    "Microsoft.AspNet.Http.Abstractions": "1.0.0-rc2-16099",
+    "Microsoft.AspNet.Owin": "1.0.0-rc2-16099",
     "Successful.Core.Ioc": "1.0.0-*"
   },
 
@@ -24,11 +22,11 @@
   "frameworks": {
     "dnx46": {
       "dependencies": {
+        "Nancy": "2.0.0-Pre22"
       }
     },
     "dnxcore5": {
       "dependencies": {
-
       }
     }
   },

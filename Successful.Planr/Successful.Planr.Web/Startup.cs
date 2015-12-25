@@ -2,9 +2,9 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNet.Builder;
-using Microsoft.AspNet.Hosting;
-using Microsoft.AspNet.Http;
+using Microsoft.AspNet.Hosting.Internal;
 using Microsoft.Extensions.DependencyInjection;
+using Nancy.Owin;
 using Successful.Core.Ioc.Modules;
 
 namespace Successful.Planr.Web
@@ -32,19 +32,9 @@ namespace Successful.Planr.Web
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app)
         {
-            app.UseStaticFiles();
+            // TODO: Nancy support for dnxcore5 is not done yet.
+            app.UseOwin().UseNancy();
 
-            //app.UseMvc(routes =>
-            //{
-            //    routes.MapRoute(
-            //        name: "default",
-            //        template: "{controller=Home}/{action=Index}/{id?}");
-            //});
-
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
-            });
         }
 
         // Entry point for the application.

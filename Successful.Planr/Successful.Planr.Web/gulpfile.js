@@ -6,12 +6,12 @@ var plugins = require('gulp-load-plugins')({
     DEBUG: false,
     rename: {
         'gulp-minify-css': 'minify',
-        'gulp-bower-files': 'bowerFiles'
     }
 });
 
 // Adding non gulp tasks.
 plugins.del = require('del');                                // Lets you delete files.
+plugins.mainBowerFiles = require('main-bower-files');
 
 // Loads all the tasks.
 var taskLoader = require('gulp-simple-task-loader')({

@@ -1,6 +1,14 @@
 {
-	"name": "Successful.Planr.Web.Bower",
-	"private": true,
-	"dependencies": {
-	}
+  "name": "Successful.Planr.Web.Bower",
+  "private": true,
+  "dependencies": {
+    "angular2": "^1.4.8",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.5.0"
+  },
+  "overrides": {
+    "bower-package": {
+     
+    }
+  }
 }

@@ -6,8 +6,6 @@
   },
   "projects": [
     "Successful.Core",
-    "Successful.Planr",
-    "ThirdPartyLibraries/Autofac/src" 
-
+    "Successful.Planr"
   ]
 }
